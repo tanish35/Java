@@ -1,18 +1,17 @@
-package ass1;
-
 import java.util.Scanner;
 
-class Room{
+class Room {
     private int height;
     private int width;
     private int breadth;
 
-    public Room(int height, int width, int breadth){
+    public Room(int height, int width, int breadth) {
         this.height = height;
         this.width = width;
         this.breadth = breadth;
     }
-    public long Volume(){
+
+    public long Volume() {
         return height * width * breadth;
     }
 }
@@ -30,5 +29,5 @@ public class RoomDemo {
         System.out.println("Volume of the room is: " + room.Volume());
         sc.close();
     }
-    
+
 }

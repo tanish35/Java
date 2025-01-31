@@ -1,5 +1,3 @@
-package ass1;
-
 public class q5 {
     public static void main(String[] args) {
         ComplexNumber num1 = new ComplexNumber(3, 2);

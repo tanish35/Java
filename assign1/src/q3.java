@@ -1,5 +1,3 @@
-package ass1;
-
 import java.util.Scanner;
 
 class Stack {
