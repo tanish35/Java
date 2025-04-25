@@ -1,0 +1,3 @@
+Hello, World!
+This is a test file.
+BufferedWriter is used for writing text to a file.
